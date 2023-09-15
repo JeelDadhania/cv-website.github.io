@@ -1188,7 +1188,12 @@ body.dark-theme {
     border-radius: 10.6rem;
   }
   .home__perfil img {
-    width: 300px;
+    width: auto;
+    height: auto;
+    position: relative;
+    bottom: 150px;
+    left: 25px;
+    transform: scale(1.7);
   }
   .home__shape-wawes {
     width: 100px;
