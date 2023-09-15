@@ -451,8 +451,6 @@ body.dark-theme {
 
 .skills__blob img {
   width: 40px;
-  mix-blend-mode: multiply;
-  filter: contrast(1);
 }
 
 .skills__name {
