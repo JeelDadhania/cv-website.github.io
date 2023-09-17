@@ -334,7 +334,12 @@ body.dark-theme {
 }
 
 .home__perfil img {
-  width: 150px;
+  width: auto;
+  height: auto;
+  position: relative;
+  bottom: 65px;
+  left: 10px;
+  transform: scale(1.6);
 }
 
 .home__shape-wawes, 
