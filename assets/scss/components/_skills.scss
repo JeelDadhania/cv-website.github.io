@@ -1,5 +1,5 @@
-/*=============== SKILLS ===============*/
-.skills{
+/*=============== software ===============*/
+.software{
     &__container{
         row-gap: 3.5rem;
     }
@@ -55,12 +55,12 @@
     }
 }
 
-/* Animation skills */
-.skills__blob:hover img{
-    animation: bounce-skills .6s;
+/* Animation software */
+.software__blob:hover img{
+    animation: bounce-software .6s;
 }
 
-@keyframes bounce-skills{
+@keyframes bounce-software{
     0% {
         transform: translate(0);
     }

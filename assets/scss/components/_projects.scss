@@ -1,5 +1,5 @@
-/*=============== PROJECTS ===============*/
-.projects{
+/*=============== work ===============*/
+.work{
     &__container{
         overflow: initial;
     }
@@ -40,13 +40,13 @@
 }
 
 /* Swiper class */
-.projects__container .swiper-button-prev::after,
-.projects__container .swiper-button-next::after{
+.work__container .swiper-button-prev::after,
+.work__container .swiper-button-next::after{
     content: '';
 }
 
-.projects__container .swiper-button-prev,
-.projects__container .swiper-button-next{
+.work__container .swiper-button-prev,
+.work__container .swiper-button-next{
     width: initial;
     height: initial;
     margin: initial;
@@ -54,29 +54,29 @@
     color: var(--title-color);
 }
 
-.projects__container .swiper-button-prev{
+.work__container .swiper-button-prev{
     left: -1rem;
     top: 4.5rem;
 }
 
-.projects__container .swiper-button-next{
+.work__container .swiper-button-next{
     right: -1rem;
     top: 4.5rem;
 }
 
-.projects__container .swiper-slide{
+.work__container .swiper-slide{
     margin-bottom: 4.5rem;
 }
 
-.projects__container .swiper-pagination-bullets{
+.work__container .swiper-pagination-bullets{
     bottom: 0;
 }
 
-.projects__container .swiper-pagination-bullet{
+.work__container .swiper-pagination-bullet{
     background-color: var(--text-color-light);
     opacity: initial;
 }
 
-.projects__container .swiper-pagination-bullet-active{
+.work__container .swiper-pagination-bullet-active{
     background-color: var(--title-color);
 }

@@ -14,11 +14,11 @@
         }
     }
 
-    .skills__info{
+    .software__info{
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .projects__img{
+    .work__img{
         width: 200px;
         justify-self: center;
     }
@@ -34,16 +34,16 @@
         margin: 0 auto;
     }
 
-    .skills__container{
+    .software__container{
         justify-content: center;
     }
 
-    .projects__container,
+    .work__container,
     .testimonial__container{
         width: 400px;
     }
 
-    .projects__container{
+    .work__container{
         overflow: hidden;
 
         & .swiper-button-prev{
@@ -75,14 +75,14 @@
         }
     }
 
-    .skills__container,
+    .software__container,
     .services__container,
     .qualification__container,
     .contact__container{
         grid-template-columns: repeat(2, max-content);
     }
 
-    .skills__container,
+    .software__container,
     .services__container{
         column-gap: 5rem;
     }
@@ -92,7 +92,7 @@
         column-gap: 10rem;
     }
 
-    .projects__container{
+    .work__container{
         width: 500px;
     }
 
@@ -245,7 +245,7 @@
         }
     }
 
-    .skills{
+    .software{
         &__container{
             column-gap: 10rem;
         }
@@ -306,7 +306,7 @@
         }
     }
 
-    .projects{
+    .work{
         &__container{
             width: 900px;
 
